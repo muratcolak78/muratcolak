@@ -118,17 +118,6 @@ function Lebenslauf() {
                 </div>
             </div>
 
-            {/* ZERTIFIZIERUNGEN */}
-            <div className="cv-section">
-                <h2>Zertifizierungen</h2>
-                <ul className="cert-list">
-                    <li>Oracle Certified Associate Java SE 8 Programmer (1Z0-808)</li>
-                    <li>Generative AI for Java and Spring Development</li>
-                    <li>Oracle SQL Certification</li>
-                    <li>Retrieval Augmented Generation (RAG)</li>
-                </ul>
-            </div>
-
             {/* SPRACHEN */}
             <div className="cv-section">
                 <h2>Sprachen</h2>
@@ -139,15 +128,6 @@ function Lebenslauf() {
                 </ul>
             </div>
 
-            {/* SOFTWAREPROJEKTE (kısa özet) */}
-            <div className="cv-section">
-                <h2>Softwareprojekte (Übersicht)</h2>
-                <div className="project-summary">
-                    <p><strong>E-Commerce Microservices Demo:</strong> Java, Spring Boot, Kafka, JWT, Docker</p>
-                    <p><strong>Excel AI KPI Reporter:</strong> Java, Spring Boot, React, OpenAI API</p>
-                    <p><strong>MyBooks Full-Stack:</strong> React, Node.js, Express, SQLite3</p>
-                </div>
-            </div>
 
             {/* SOFT SKILLS */}
             <div className="cv-section">
