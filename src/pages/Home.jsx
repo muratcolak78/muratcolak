@@ -11,9 +11,7 @@ function Home() {
                         <h1>Hallo, ich bin Murat Colak</h1>
                         <p className="hero-subtitle">Java Backend Developer (Spring Boot)</p>
                     </div>
-                    <div className="hero-image">
-                        <img src="/images/murat-colak.jpg" alt="Murat Çolak" className="profile-photo" />
-                    </div>
+
                 </div>
             </div>
 
