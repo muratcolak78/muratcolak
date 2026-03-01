@@ -5,7 +5,7 @@ import Profile from '../components/Profil';
 import { projects } from '../data/projects';
 
 function Home() {
-    const featured = projects.find(p => p.id === 4) || projects[0];
+    const featured = projects.find(p => p.id === 1) || projects[0];
 
     return (
         <div className="home">
