@@ -8,7 +8,8 @@ export const projects = [
         github: "https://github.com/muratcolak78/angebot-frontend.git",              // repo varsa
         linkedin: "https://www.linkedin.com/posts/murat-colak-640655232_saas-java-springboot-activity-7433981179713941505-AET-?utm_source=share&utm_medium=member_desktop&rcm=ACoAADod4lABWSv8fz3hlciWJG5N2FhprMOFA9s", // post linkin
         live: "https://angebotfuermaler.vercel.app",
-        image: "/images/angebot.gif"
+        image: "/images/angebot.gif",
+        video: "/videos/angebot.mp4"
     },
     {
         id: 2,

@@ -53,7 +53,25 @@ function Home() {
                     </div>
 
                     <div className="featured-right">
-                        <img src={featured.image || "/placeholder.jpg"} alt={featured.title} />
+
+                        {featured.video ? (
+                            <video
+                                autoPlay
+                                muted
+                                loop
+                                playsInline
+                                preload="auto"
+                                className="featured-video"
+                            >
+                                <source src={featured.video} type="video/mp4" />
+                            </video>
+                        ) : (
+                            <img
+                                src={featured.image || "/placeholder.jpg"}
+                                alt={featured.title}
+                            />
+                        )}
+
                     </div>
                 </div>
             </div>
