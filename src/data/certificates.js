@@ -81,6 +81,14 @@ export const certificates = [
         date: "2022",
         image: "/images/certificates/java-helsinki.jpg",
         link: "https://certificates.mooc.fi/validate/ma33p9yo53l"
+    },
+    {
+        id: 11,
+        title: "ISTQB Level(CTFL)",
+        issuer: "International Software Testing Qualification Board",
+        date: "2023",
+        image: "/images/certificates/istqb.jpg",
+        link: "https://app.diplomasafe.com/en-US/s/a31a7b96/007cc9c0"
     }
 
 ]
